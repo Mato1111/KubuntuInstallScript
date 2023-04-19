@@ -7,3 +7,5 @@ Latte Separator,
 Latte Spacer,
 Window Title Applet,
 Better Inline Clock
+
+Download and apply the .latte layout once latte dock opens.
