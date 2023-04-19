@@ -8,4 +8,4 @@ Latte Spacer,
 Window Title Applet,
 Better Inline Clock
 
-Download and apply the .latte layout once latte dock opens.
+Apply the .latte layout located on the Desktop once latte dock opens.
