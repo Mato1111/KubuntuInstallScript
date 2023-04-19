@@ -13,6 +13,9 @@ chmod +x betterdiscordctl
 sudo mv betterdiscordctl /usr/local/bin
 betterdiscordctl --d-install flatpak install
 latte-dock
+cd ~/Desktop
+wget https://raw.githubusercontent.com/Mato1111/KubuntuInstallScript/main/Default_-_2.layout.latte
+mv main/Default_-_2.layout.latte.1 main/Default_-_2.layout.latte
 
 clear
 neofetch
@@ -22,4 +25,3 @@ echo "
 
 "
 echo "Set-up complete!"
-cd ~/Desktop
