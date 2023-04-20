@@ -25,6 +25,7 @@ chmod +x betterdiscordctl
 sudo mv betterdiscordctl /usr/local/bin
 betterdiscordctl --d-install flatpak install
 
+# Wallpaper Engine Plugin
 cd ~/
 # Download source
 git clone https://github.com/catsout/wallpaper-engine-kde-plugin.git
@@ -50,6 +51,7 @@ cd ~/Desktop
 wget https://raw.githubusercontent.com/Mato1111/KubuntuInstallScript/main/Default_-_2.layout.latte
 mv main/Default_-_2.layout.latte.1 main/Default_-_2.layout.latte
 latte-dock
+xdg-open https://store.steampowered.com/about/
 
 clear
 neofetch
