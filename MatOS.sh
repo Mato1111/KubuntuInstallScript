@@ -60,6 +60,7 @@ wget https://raw.githubusercontent.com/Mato1111/KubuntuInstallScript/main/Defaul
 mv main/Default_-_2.layout.latte.1 main/Default_-_2.layout.latte
 latte-dock
 xdg-open https://store.steampowered.com/about/
+xdg-open https://store.kde.org/p/1325246/
 
 clear
 neofetch
