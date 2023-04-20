@@ -26,7 +26,7 @@ libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev pyt
 
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo snap remove Firefox
-sudo flatpak install Discordapp Discord-screen Bottles grapejuice com.opera.Opera app/org.mozilla.firefox/x86_64/stable -y --noninteractive
+sudo flatpak install Discordapp Discord-screen Bottles grapejuice pupgui2 flatseal com.opera.Opera app/org.mozilla.firefox/x86_64/stable -y --noninteractive
 
 curl -O https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl
 chmod +x betterdiscordctl
