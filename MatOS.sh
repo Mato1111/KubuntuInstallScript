@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 clear
 echo "This is the MatOS Post-Install script for Kubuntu!"
 echo "Please install Black Box first, then continue the script."
@@ -30,7 +30,7 @@ sudo nala install extra-cmake-modules qtdeclarative5-dev libqt5x11extras5-dev li
 
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo -y
 sudo snap remove firefox -y
-sudo flatpak install app/com.raggesilver.BlackBox/x86_64/stable Discordapp Discord-screen Bottles grapejuice pupgui2 flatseal com.opera.Opera app/org.mozilla.firefox/x86_64/stable -y --noninteractive
+sudo flatpak install app/com.raggesilver.BlackBox/x86_64/stable Discordapp Discord-screen Bottles grapejuice Spotify pupgui2 flatseal com.opera.Opera app/org.mozilla.firefox/x86_64/stable -y --noninteractive
 
 curl -O https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl
 chmod +x betterdiscordctl
@@ -67,5 +67,6 @@ xdg-open https://store.kde.org/p/1325246/
 clear
 neofetch
 echo "
+
 "
-echo "Set-up complete! Please restart the computer. Start Latte Dock after. Remember to install the widgets before applying the layout."
+echo "Set-up complete! Please restart the computer."
