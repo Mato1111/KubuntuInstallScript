@@ -41,24 +41,13 @@ xdg-settings set default-web-browser opera.desktop
 
 # Wallpaper Engine Plugin (https://github.com/catsout/wallpaper-engine-kde-plugin)
 cd
-# Download source
 git clone https://github.com/catsout/wallpaper-engine-kde-plugin.git
 cd wallpaper-engine-kde-plugin
-
-# Download submodule (glslang)
 git submodule update --init
-
-# Configure
-# 'USE_PLASMAPKG=ON': using plasmapkg2 tool to install plugin
 mkdir build && cd build
 cmake .. -DUSE_PLASMAPKG=ON
-
-# Build
 make -j$nproc
-
-# Install package (ignore if USE_PLASMAPKG=OFF for system-wide installation)
 make install_pkg
-# install lib
 sudo make install
 
 
@@ -69,9 +58,10 @@ cd ~/latte-dock/
 bash install
 
 cd ~/Desktop
-wget https://github.com/Mato1111/KubuntuInstallScript/blob/main/Latte-Layout.latte
+wget https://raw.githubusercontent.com/Mato1111/KubuntuInstallScript/main/Latte-Layout.latte
 xdg-open https://store.steampowered.com/about/
 xdg-open https://store.kde.org/p/1325246/
+
 
 clear
 neofetch
