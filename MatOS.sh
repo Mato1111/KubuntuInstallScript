@@ -10,8 +10,8 @@ Please install these Plasma widgets after the running the script, but before app
 sudo apt install nala -y
 sudo nala fetch --auto --fetches 4 -c US -c CA --https-only -y
 
-sudo add-apt-repository ppa:deadsnakes/ppa
-sudo add-apt-repository ppa:papirus/papirus
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo add-apt-repository ppa:papirus/papirus -y
 
 sudo nala upgrade -y
 
@@ -23,9 +23,9 @@ qml-module-qtwebchannel qml-module-qtwebsockets cmake -y
 sudo nala install libncursesw5-dev libssl-dev \
 libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev python3.11 -y
 
-sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-sudo snap remove firefox
-sudo flatpak install Discordapp Discord-screen Bottles pupgui2 flatseal com.opera.Opera app/org.mozilla.firefox/x86_64/stable -y --noninteractive
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo -y
+sudo snap remove firefox -y
+sudo flatpak install app/com.raggesilver.BlackBox/x86_64/stable Discordapp Discord-screen Bottles pupgui2 flatseal com.opera.Opera app/org.mozilla.firefox/x86_64/stable -y --noninteractive
 
 curl -O https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl
 chmod +x betterdiscordctl
