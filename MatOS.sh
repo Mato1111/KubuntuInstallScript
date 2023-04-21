@@ -30,7 +30,7 @@ sudo nala install extra-cmake-modules qtdeclarative5-dev libqt5x11extras5-dev li
 
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo -y
 sudo snap remove firefox -y
-sudo flatpak install app/com.raggesilver.BlackBox/x86_64/stable Discordapp Discord-screen Bottles pupgui2 flatseal com.opera.Opera app/org.mozilla.firefox/x86_64/stable -y --noninteractive
+sudo flatpak install app/com.raggesilver.BlackBox/x86_64/stable Discordapp Discord-screen Bottles grapejuice pupgui2 flatseal com.opera.Opera app/org.mozilla.firefox/x86_64/stable -y --noninteractive
 
 curl -O https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl
 chmod +x betterdiscordctl
