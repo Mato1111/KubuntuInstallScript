@@ -69,7 +69,7 @@ cd ~/latte-dock/
 bash install
 
 cd ~/Desktop
-wget https://raw.githubusercontent.com/Mato1111/KubuntuInstallScript/main/Default_-_2.layout.latte
+wget https://github.com/Mato1111/KubuntuInstallScript/blob/main/Latte-Layout.latte
 xdg-open https://store.steampowered.com/about/
 xdg-open https://store.kde.org/p/1325246/
 
