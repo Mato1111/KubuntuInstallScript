@@ -16,8 +16,9 @@ sudo add-apt-repository ppa:kubuntu-ppa/backports -y
 
 sudo nala upgrade -y
 
-# Shit ton of apt packages that are mostly dependencies.
 sudo nala install neofetch htop wget curl flatpak qt5-style-kvantum qt5-style-kvantum-themes -y
+
+# App dependencies
 sudo nala install build-essential libvulkan-dev plasma-workspace-dev gstreamer1.0-libav \
 liblz4-dev libmpv-dev python3-websockets qtbase5-private-dev \
 libqt5x11extras5-dev \
