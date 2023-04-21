@@ -41,7 +41,7 @@ xdg-settings set default-web-browser opera.desktop
 
 
 # Wallpaper Engine Plugin (https://github.com/catsout/wallpaper-engine-kde-plugin)
-cd
+cd ~/
 git clone https://github.com/catsout/wallpaper-engine-kde-plugin.git
 cd wallpaper-engine-kde-plugin
 git submodule update --init
@@ -53,10 +53,10 @@ sudo make install
 
 
 # Latte Dock
-cd
+cd ~/
 git clone https://github.com/KDE/latte-dock
 cd ~/latte-dock/
-bash install
+bash install.sh
 
 cd ~/Desktop
 wget https://raw.githubusercontent.com/Mato1111/KubuntuInstallScript/main/Latte-Layout.latte
