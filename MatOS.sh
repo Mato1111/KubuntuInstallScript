@@ -4,7 +4,7 @@ echo "This is the MatOS Post-Install script for Kubuntu!"
 echo "Please install Black Box first, then continue the script."
 echo "If the system restarts, just run the script again."
 echo"
-Please install these Plasma widgets after the running the script, but before applying the Latte Dock layout: Latte Separator, Latte Spacer, Window Title Applet, Better Inline Clock
+Please install these Plasma widgets after the running the script, but before applying the Latte Dock layout: Simple Application Launcher, Latte Separator, Latte Spacer, Window Title Applet, Better Inline Clock
 "
 
 sudo apt install nala -y
